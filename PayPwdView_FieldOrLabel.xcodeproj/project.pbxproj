@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED828C971D349CE700E60E59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED828C961D349CE700E60E59 /* main.m */; };
+		ED828C9A1D349CE700E60E59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED828C991D349CE700E60E59 /* AppDelegate.m */; };
+		ED828C9D1D349CE700E60E59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED828C9C1D349CE700E60E59 /* ViewController.m */; };
+		ED828CA01D349CE700E60E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED828C9E1D349CE700E60E59 /* Main.storyboard */; };
+		ED828CA21D349CE700E60E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED828CA11D349CE700E60E59 /* Assets.xcassets */; };
+		ED828CA51D349CE700E60E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED828CA31D349CE700E60E59 /* LaunchScreen.storyboard */; };
+		ED828CB01D349CE700E60E59 /* PayPwdView_FieldOrLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED828CAF1D349CE700E60E59 /* PayPwdView_FieldOrLabelTests.m */; };
+		ED828CBB1D349CE700E60E59 /* PayPwdView_FieldOrLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED828CBA1D349CE700E60E59 /* PayPwdView_FieldOrLabelUITests.m */; };
+		ED828CCC1D349D9800E60E59 /* PwdView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED828CCB1D349D9800E60E59 /* PwdView.m */; };
+		ED828CCF1D34DA9C00E60E59 /* PSWView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED828CCE1D34DA9C00E60E59 /* PSWView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED828CAC1D349CE700E60E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED828C8A1D349CE700E60E59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED828C911D349CE700E60E59;
+			remoteInfo = PayPwdView_FieldOrLabel;
+		};
+		ED828CB71D349CE700E60E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED828C8A1D349CE700E60E59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED828C911D349CE700E60E59;
+			remoteInfo = PayPwdView_FieldOrLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED828C921D349CE700E60E59 /* PayPwdView_FieldOrLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPwdView_FieldOrLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED828C961D349CE700E60E59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED828C981D349CE700E60E59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED828C991D349CE700E60E59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED828C9B1D349CE700E60E59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED828C9C1D349CE700E60E59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED828C9F1D349CE700E60E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED828CA11D349CE700E60E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED828CA41D349CE700E60E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED828CA61D349CE700E60E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED828CAB1D349CE700E60E59 /* PayPwdView_FieldOrLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPwdView_FieldOrLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED828CAF1D349CE700E60E59 /* PayPwdView_FieldOrLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayPwdView_FieldOrLabelTests.m; sourceTree = "<group>"; };
+		ED828CB11D349CE700E60E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED828CB61D349CE700E60E59 /* PayPwdView_FieldOrLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPwdView_FieldOrLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED828CBA1D349CE700E60E59 /* PayPwdView_FieldOrLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayPwdView_FieldOrLabelUITests.m; sourceTree = "<group>"; };
+		ED828CBC1D349CE700E60E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED828CCA1D349D8F00E60E59 /* PwdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PwdView.h; sourceTree = "<group>"; };
+		ED828CCB1D349D9800E60E59 /* PwdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PwdView.m; sourceTree = "<group>"; };
+		ED828CCD1D34DA8E00E60E59 /* PSWView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSWView.h; sourceTree = "<group>"; };
+		ED828CCE1D34DA9C00E60E59 /* PSWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED828C8F1D349CE700E60E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED828CA81D349CE700E60E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED828CB31D349CE700E60E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED828C891D349CE700E60E59 = {
+			isa = PBXGroup;
+			children = (
+				ED828C941D349CE700E60E59 /* PayPwdView_FieldOrLabel */,
+				ED828CAE1D349CE700E60E59 /* PayPwdView_FieldOrLabelTests */,
+				ED828CB91D349CE700E60E59 /* PayPwdView_FieldOrLabelUITests */,
+				ED828C931D349CE700E60E59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED828C931D349CE700E60E59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED828C921D349CE700E60E59 /* PayPwdView_FieldOrLabel.app */,
+				ED828CAB1D349CE700E60E59 /* PayPwdView_FieldOrLabelTests.xctest */,
+				ED828CB61D349CE700E60E59 /* PayPwdView_FieldOrLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED828C941D349CE700E60E59 /* PayPwdView_FieldOrLabel */ = {
+			isa = PBXGroup;
+			children = (
+				ED828C981D349CE700E60E59 /* AppDelegate.h */,
+				ED828C991D349CE700E60E59 /* AppDelegate.m */,
+				ED828C9B1D349CE700E60E59 /* ViewController.h */,
+				ED828C9C1D349CE700E60E59 /* ViewController.m */,
+				ED828C9E1D349CE700E60E59 /* Main.storyboard */,
+				ED828CA11D349CE700E60E59 /* Assets.xcassets */,
+				ED828CA31D349CE700E60E59 /* LaunchScreen.storyboard */,
+				ED828CA61D349CE700E60E59 /* Info.plist */,
+				ED828CC91D349D6200E60E59 /* PwdLabel */,
+				ED828CC81D349D5800E60E59 /* PwdField */,
+				ED828C951D349CE700E60E59 /* Supporting Files */,
+			);
+			path = PayPwdView_FieldOrLabel;
+			sourceTree = "<group>";
+		};
+		ED828C951D349CE700E60E59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED828C961D349CE700E60E59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED828CAE1D349CE700E60E59 /* PayPwdView_FieldOrLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED828CAF1D349CE700E60E59 /* PayPwdView_FieldOrLabelTests.m */,
+				ED828CB11D349CE700E60E59 /* Info.plist */,
+			);
+			path = PayPwdView_FieldOrLabelTests;
+			sourceTree = "<group>";
+		};
+		ED828CB91D349CE700E60E59 /* PayPwdView_FieldOrLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED828CBA1D349CE700E60E59 /* PayPwdView_FieldOrLabelUITests.m */,
+				ED828CBC1D349CE700E60E59 /* Info.plist */,
+			);
+			path = PayPwdView_FieldOrLabelUITests;
+			sourceTree = "<group>";
+		};
+		ED828CC81D349D5800E60E59 /* PwdField */ = {
+			isa = PBXGroup;
+			children = (
+				ED828CCA1D349D8F00E60E59 /* PwdView.h */,
+				ED828CCB1D349D9800E60E59 /* PwdView.m */,
+			);
+			path = PwdField;
+			sourceTree = "<group>";
+		};
+		ED828CC91D349D6200E60E59 /* PwdLabel */ = {
+			isa = PBXGroup;
+			children = (
+				ED828CCD1D34DA8E00E60E59 /* PSWView.h */,
+				ED828CCE1D34DA9C00E60E59 /* PSWView.m */,
+			);
+			path = PwdLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED828C911D349CE700E60E59 /* PayPwdView_FieldOrLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED828CBF1D349CE700E60E59 /* Build configuration list for PBXNativeTarget "PayPwdView_FieldOrLabel" */;
+			buildPhases = (
+				ED828C8E1D349CE700E60E59 /* Sources */,
+				ED828C8F1D349CE700E60E59 /* Frameworks */,
+				ED828C901D349CE700E60E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayPwdView_FieldOrLabel;
+			productName = PayPwdView_FieldOrLabel;
+			productReference = ED828C921D349CE700E60E59 /* PayPwdView_FieldOrLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED828CAA1D349CE700E60E59 /* PayPwdView_FieldOrLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED828CC21D349CE700E60E59 /* Build configuration list for PBXNativeTarget "PayPwdView_FieldOrLabelTests" */;
+			buildPhases = (
+				ED828CA71D349CE700E60E59 /* Sources */,
+				ED828CA81D349CE700E60E59 /* Frameworks */,
+				ED828CA91D349CE700E60E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED828CAD1D349CE700E60E59 /* PBXTargetDependency */,
+			);
+			name = PayPwdView_FieldOrLabelTests;
+			productName = PayPwdView_FieldOrLabelTests;
+			productReference = ED828CAB1D349CE700E60E59 /* PayPwdView_FieldOrLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED828CB51D349CE700E60E59 /* PayPwdView_FieldOrLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED828CC51D349CE700E60E59 /* Build configuration list for PBXNativeTarget "PayPwdView_FieldOrLabelUITests" */;
+			buildPhases = (
+				ED828CB21D349CE700E60E59 /* Sources */,
+				ED828CB31D349CE700E60E59 /* Frameworks */,
+				ED828CB41D349CE700E60E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED828CB81D349CE700E60E59 /* PBXTargetDependency */,
+			);
+			name = PayPwdView_FieldOrLabelUITests;
+			productName = PayPwdView_FieldOrLabelUITests;
+			productReference = ED828CB61D349CE700E60E59 /* PayPwdView_FieldOrLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED828C8A1D349CE700E60E59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "刘家男";
+				TargetAttributes = {
+					ED828C911D349CE700E60E59 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ED828CAA1D349CE700E60E59 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ED828C911D349CE700E60E59;
+					};
+					ED828CB51D349CE700E60E59 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ED828C911D349CE700E60E59;
+					};
+				};
+			};
+			buildConfigurationList = ED828C8D1D349CE700E60E59 /* Build configuration list for PBXProject "PayPwdView_FieldOrLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED828C891D349CE700E60E59;
+			productRefGroup = ED828C931D349CE700E60E59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED828C911D349CE700E60E59 /* PayPwdView_FieldOrLabel */,
+				ED828CAA1D349CE700E60E59 /* PayPwdView_FieldOrLabelTests */,
+				ED828CB51D349CE700E60E59 /* PayPwdView_FieldOrLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED828C901D349CE700E60E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED828CA51D349CE700E60E59 /* LaunchScreen.storyboard in Resources */,
+				ED828CA21D349CE700E60E59 /* Assets.xcassets in Resources */,
+				ED828CA01D349CE700E60E59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED828CA91D349CE700E60E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED828CB41D349CE700E60E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED828C8E1D349CE700E60E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED828CCF1D34DA9C00E60E59 /* PSWView.m in Sources */,
+				ED828C9D1D349CE700E60E59 /* ViewController.m in Sources */,
+				ED828C9A1D349CE700E60E59 /* AppDelegate.m in Sources */,
+				ED828CCC1D349D9800E60E59 /* PwdView.m in Sources */,
+				ED828C971D349CE700E60E59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED828CA71D349CE700E60E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED828CB01D349CE700E60E59 /* PayPwdView_FieldOrLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED828CB21D349CE700E60E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED828CBB1D349CE700E60E59 /* PayPwdView_FieldOrLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED828CAD1D349CE700E60E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED828C911D349CE700E60E59 /* PayPwdView_FieldOrLabel */;
+			targetProxy = ED828CAC1D349CE700E60E59 /* PBXContainerItemProxy */;
+		};
+		ED828CB81D349CE700E60E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED828C911D349CE700E60E59 /* PayPwdView_FieldOrLabel */;
+			targetProxy = ED828CB71D349CE700E60E59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED828C9E1D349CE700E60E59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED828C9F1D349CE700E60E59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED828CA31D349CE700E60E59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED828CA41D349CE700E60E59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED828CBD1D349CE700E60E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED828CBE1D349CE700E60E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED828CC01D349CE700E60E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayPwdView_FieldOrLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vicool.PayPwdView-FieldOrLabel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED828CC11D349CE700E60E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayPwdView_FieldOrLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vicool.PayPwdView-FieldOrLabel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED828CC31D349CE700E60E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PayPwdView_FieldOrLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vicool.PayPwdView-FieldOrLabelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayPwdView_FieldOrLabel.app/PayPwdView_FieldOrLabel";
+			};
+			name = Debug;
+		};
+		ED828CC41D349CE700E60E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PayPwdView_FieldOrLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vicool.PayPwdView-FieldOrLabelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayPwdView_FieldOrLabel.app/PayPwdView_FieldOrLabel";
+			};
+			name = Release;
+		};
+		ED828CC61D349CE700E60E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PayPwdView_FieldOrLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vicool.PayPwdView-FieldOrLabelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayPwdView_FieldOrLabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ED828CC71D349CE700E60E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PayPwdView_FieldOrLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vicool.PayPwdView-FieldOrLabelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayPwdView_FieldOrLabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED828C8D1D349CE700E60E59 /* Build configuration list for PBXProject "PayPwdView_FieldOrLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED828CBD1D349CE700E60E59 /* Debug */,
+				ED828CBE1D349CE700E60E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED828CBF1D349CE700E60E59 /* Build configuration list for PBXNativeTarget "PayPwdView_FieldOrLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED828CC01D349CE700E60E59 /* Debug */,
+				ED828CC11D349CE700E60E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED828CC21D349CE700E60E59 /* Build configuration list for PBXNativeTarget "PayPwdView_FieldOrLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED828CC31D349CE700E60E59 /* Debug */,
+				ED828CC41D349CE700E60E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED828CC51D349CE700E60E59 /* Build configuration list for PBXNativeTarget "PayPwdView_FieldOrLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED828CC61D349CE700E60E59 /* Debug */,
+				ED828CC71D349CE700E60E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED828C8A1D349CE700E60E59 /* Project object */;
+}
